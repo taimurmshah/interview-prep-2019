@@ -32,7 +32,6 @@ class SinglyLinkedList {
     return this;
   }
 
-  //if length = 1... isn't this a special case?
   pop() {
     if (!this.head) {
       return undefined;
@@ -66,6 +65,20 @@ class SinglyLinkedList {
       return old;
     }
     let old = this.head;
+    this.head = old.next;
+    old.next = null;
+    this.length--;
+    return old;
+  }
+
+  printValues(node) {
+    if (!node.next) {
+      console.log(node.value);
+      return;
+    } else {
+      console.log(node.value);
+      return this.printValues(node.next);
+    }
   }
 }
 
