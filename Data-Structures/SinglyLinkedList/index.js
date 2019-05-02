@@ -19,6 +19,16 @@ class SinglyLinkedList {
     this.length = 0;
   }
 
+  printValues(node) {
+    if (!node.next) {
+      console.log(node.value);
+      return;
+    } else {
+      console.log(node.value);
+      return this.printValues(node.next);
+    }
+  }
+
   push(value) {
     let newNode = new Node(value);
     if (!this.head) {
@@ -71,14 +81,73 @@ class SinglyLinkedList {
     return old;
   }
 
-  printValues(node) {
-    if (!node.next) {
-      console.log(node.value);
-      return;
-    } else {
-      console.log(node.value);
-      return this.printValues(node.next);
+  unshift(value) {
+    let newNode = new Node(value);
+    if (!this.head) this.head = newNode;
+    else {
+      let old = this.head;
+      newNode.next = old;
+      this.head = newNode;
     }
+    this.length++;
+    return this;
+  }
+
+  get(index) {
+    if (index >= this.length) return undefined;
+    let count = 0;
+    let current = this.head;
+    while (count < index) {
+      current = current.next;
+      count++;
+    }
+    return current;
+  }
+
+  set(index, value) {
+    if (index >= this.length) return undefined;
+    let nodeToChange = this.get(index);
+    nodeToChange.value = value;
+    this.printValues(this.head);
+    return nodeToChange;
+  }
+
+  insert(index, value) {
+    if (this.length === 0) {
+      console.error(`this list does not contain a value at index ${index}`);
+      return undefined;
+    }
+    if (index >= this.length) return undefined;
+    if (this.length === 1) {
+      this.unshift(value);
+      return this;
+    }
+    let old = this.get(index);
+    let before = this.get(index - 1);
+    let newNode = new Node(value);
+    before.next = newNode;
+    newNode.next = old;
+    this.length++;
+    this.printValues(this.head);
+    return this;
+  }
+
+  remove(index) {
+    if (index >= this.length) return undefined;
+    if (this.length === 0) return undefined;
+    if (this.length === 1) {
+      return this.pop();
+    }
+    if (index === 0) {
+      let newHead = this.head.next;
+      this.head = newHead;
+    }
+    let before = this.get(index - 1);
+    let nodeToRemove = this.get(index);
+    before.next = nodeToRemove.next;
+    this.length--;
+    this.printValues(this.head);
+    return this;
   }
 }
 
@@ -88,3 +157,5 @@ list.push("what's");
 list.push("good");
 list.push("today");
 list.push("ma");
+
+let smallList = new SinglyLinkedList();
