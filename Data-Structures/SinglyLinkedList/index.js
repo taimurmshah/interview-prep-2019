@@ -135,7 +135,7 @@ class SinglyLinkedList {
   remove(index) {
     if (index >= this.length) return undefined;
     if (this.length === 0) return undefined;
-    if (this.length === 1) {
+    if (this.length === 1 || index === this.length - 1) {
       return this.pop();
     }
     if (index === 0) {
@@ -148,6 +148,25 @@ class SinglyLinkedList {
     this.length--;
     this.printValues(this.head);
     return this;
+  }
+
+  reverse() {
+    let oldNext1;
+    let oldNext2;
+    let currentValue;
+    let count = 0;
+    while (count < this.length) {
+      if (count === 0) {
+        this.tail = this.head;
+        currentValue = this.tail.next;
+        oldNext1 = this.tail.next.next;
+        this.tail.next.next = this.tail;
+        console.log("i am in here");
+      } else {
+        debugger;
+      }
+      count++;
+    }
   }
 }
 
