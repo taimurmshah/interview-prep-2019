@@ -55,6 +55,18 @@ class SinglyLinkedList {
     console.log(list);
     return two;
   }
+
+  shift() {
+    if (!this.head) return undefined;
+    else if (this.length === 1) {
+      let old = this.head;
+      this.head = null;
+      this.tail = null;
+      this.length = 0;
+      return old;
+    }
+    let old = this.head;
+  }
 }
 
 let list = new SinglyLinkedList();
