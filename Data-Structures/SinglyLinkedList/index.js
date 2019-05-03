@@ -151,22 +151,28 @@ class SinglyLinkedList {
   }
 
   reverse() {
-    let oldNext1;
-    let oldNext2;
-    let currentValue;
     let count = 0;
+    let currentValue;
+    let savedValue;
+    let otherSavedValue;
     while (count < this.length) {
       if (count === 0) {
+        savedValue = this.head.next.next;
         this.tail = this.head;
-        currentValue = this.tail.next;
-        oldNext1 = this.tail.next.next;
         this.tail.next.next = this.tail;
-        console.log("i am in here");
+        currentValue = this.tail.next;
+      } else if (count === this.length - 1) {
+        this.head = currentValue;
+        this.tail.next = null;
       } else {
-        debugger;
+        otherSavedValue = savedValue.next;
+        savedValue.next = currentValue;
+        currentValue = savedValue;
+        savedValue = otherSavedValue;
       }
       count++;
     }
+    return list;
   }
 }
 
