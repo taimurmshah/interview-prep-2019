@@ -22,7 +22,7 @@ class SinglyLinkedList {
   printValues(node) {
     if (!node.next) {
       console.log(node.value);
-      return;
+      return this;
     } else {
       console.log(node.value);
       return this.printValues(node.next);
