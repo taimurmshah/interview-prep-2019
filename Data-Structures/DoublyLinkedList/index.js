@@ -19,13 +19,28 @@ class DoublyLinkedList {
       this.head = newNode;
       this.tail = this.head;
     } else {
-      let oldTail = this.tail;
       this.tail.next = newNode;
+      newNode.previous = this.tail;
       this.tail = newNode;
-      this.tail.previous = oldTail;
     }
     this.length++;
     return this;
+  }
+
+  pop() {
+    let popped;
+    if (this.length === 0) return undefined;
+    else if (this.length === 1) {
+      popped = this.tail;
+      this.head = null;
+      this.tail = null;
+    } else {
+      popped = this.tail;
+      this.tail = this.tail.previous;
+      this.tail.next = null;
+    }
+    this.length--;
+    return popped;
   }
 }
 
