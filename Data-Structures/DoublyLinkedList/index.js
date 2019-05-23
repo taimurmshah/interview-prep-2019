@@ -13,6 +13,13 @@ class DoublyLinkedList {
     this.length = 0;
   }
 
+  print() {
+    for (let i = 0; i < this.length; i++) {
+      console.log(this.get(i).value);
+    }
+    return true;
+  }
+
   push(value) {
     let newNode = new Node(value);
     if (this.length === 0) {
@@ -137,21 +144,175 @@ class DoublyLinkedList {
       value = this.get(index);
       value.previous.next = value.next;
       value.next.previous = value.previous;
+      value.next = null;
+      value.previous = null;
       this.length--;
       return value;
     }
   }
+
+  reverse() {
+    if (this.length === 0) return undefined;
+    if (this.length === 1) return this;
+    // this.print();
+    if (this.length === 2) {
+      this.head.previous = this.head.next;
+      this.tail.next = this.tail.previous;
+      this.head = this.tail;
+      this.tail = this.head.next;
+      // this.print();
+      return this;
+    }
+    let i = 0;
+    let j = this.length - 1;
+
+    let one;
+    let two;
+
+    while (j >= i) {
+      if (i === 0 && j === this.length - 1) {
+        this.head.previous = this.head.next;
+        one = this.head.next;
+        this.head.next = null;
+
+        this.tail.next = this.tail.previous;
+        two = this.tail.previous;
+        this.tail.previous = null;
+
+        this.tail = one.previous;
+        this.head = two.next;
+
+        i++;
+        j--;
+      } else if (i === j) {
+        two = one.next;
+        one.next = one.previous;
+        one.previous = two;
+
+        i++;
+        j--;
+      } else {
+        let three;
+        let four;
+
+        three = one.next;
+        one.next = one.previous;
+        one.previous = three;
+
+        four = two.previous;
+        two.previous = two.next;
+        two.next = four;
+
+        one = one.previous;
+        two = two.next;
+
+        i++;
+        j--;
+      }
+    }
+    // this.print();
+    return this;
+  }
 }
 
-let first = new Node(13);
+let test = new DoublyLinkedList();
+test
+  .push(5)
+  .push(10)
+  .push(15)
+  .push(20);
+
+let one = new DoublyLinkedList().push("one");
+
+let two = new DoublyLinkedList();
+two.push("yo");
+two.push("dude");
+
+let three = new DoublyLinkedList();
+three.push("yo");
+three.push("my");
+three.push("dude");
 //
-let list = new DoublyLinkedList();
-list.push("yo");
-list.push("my");
-list.push("g");
-list.push("whats");
-list.push("really");
-list.push("good");
-list.push("and");
-list.push("shit");
-list.push("?");
+let nine = new DoublyLinkedList();
+nine.push("yo");
+nine.push("my");
+nine.push("g");
+nine.push("whats");
+nine.push("really");
+nine.push("good");
+nine.push("and");
+nine.push("shit");
+nine.push("?");
+
+let ten = new DoublyLinkedList();
+ten.push("yo");
+ten.push("my");
+ten.push("g");
+ten.push("whats");
+ten.push("really");
+ten.push("good");
+ten.push("and");
+ten.push("shit");
+ten.push("dude");
+ten.push("?");
+
+let four = new DoublyLinkedList();
+four.push("yo");
+four.push("whats");
+four.push("good");
+four.push("dude");
+
+/* reverse() {
+  if (this.length <= 1) return undefined;
+  if (this.length === 2) {
+    this.head.previous = this.tail;
+    this.tail.next = this.head;
+    this.head = this.tail;
+    this.tail = this.head.next;
+    this.head.previous = null;
+    this.tail.next = null;
+    this.print();
+    return this;
+  }
+  let one;
+  let two;
+  let i = 0;
+  let j = this.length - 1;
+  while (j >= i) {
+    if (i === 0 && j === this.length - 1) {
+      one = this.head.next;
+      two = this.tail.previous;
+      this.head.previous = this.head.next;
+      this.tail.next = this.tail.previous;
+      this.head.next = null;
+      this.tail.previous = null;
+      this.tail = one.previous;
+      this.head = two.next;
+      i++;
+      j--;
+    } else if (j > i) {
+      let three;
+      let four;
+      one = this.get(i);
+      two = this.get(j);
+      three = one.next;
+      one.next = one.previous;
+      one.previous = three;
+      four = two.previous;
+      two.previous = two.next;
+      two.next = four;
+      i++;
+      j--;
+    } else {
+      one = this.get(i);
+      two = one.next;
+      one.next = one.previous;
+      one.previous = two;
+      i++;
+      j--;
+    }
+  }
+  this.print();
+  return this;
+}
+*/
