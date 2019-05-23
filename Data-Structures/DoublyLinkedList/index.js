@@ -75,6 +75,7 @@ class DoublyLinkedList {
   }
 
   get(index) {
+    if (index < 0 || index >= this.length) return null;
     let counter = 0;
     let value;
     if (index < Math.round(this.length / 2)) {
@@ -93,7 +94,48 @@ class DoublyLinkedList {
     }
     return value;
   }
+
+  set(index, value) {
+    let foundNode = this.get(index);
+    if (foundNode !== null) {
+      foundNode.value = value;
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  insert(index, value) {
+    let newNode = new Node(value);
+    if (index < 0 || index > this.length) return null;
+    let front;
+    let behind;
+    if (index === 0) {
+      list.unshift(value);
+    } else if (index === this.length) {
+      list.push(value);
+    } else {
+      front = this.get(index);
+      behind = this.get(index - 1);
+      newNode.next = front;
+      front.previous = newNode;
+      newNode.previous = behind;
+      behind.next = newNode;
+      this.length++;
+    }
+    return this;
+  }
 }
 
 let first = new Node(13);
+//
 let list = new DoublyLinkedList();
+list.push("yo");
+list.push("my");
+list.push("g");
+list.push("whats");
+list.push("really");
+list.push("good");
+list.push("and");
+list.push("shit");
+list.push("?");
