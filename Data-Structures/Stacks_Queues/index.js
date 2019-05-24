@@ -24,8 +24,8 @@ class Node {
 
 class Stack {
   constructor() {
-    this.head = null;
-    this.tail = null;
+    this.first = null;
+    this.last = null;
     this.length = 0;
   }
 
@@ -37,15 +37,15 @@ class Stack {
   unshift(value) {
     let newNode = new Node(value);
     if (this.length === 0) {
-      this.head = newNode;
-      this.tail = newNode;
+      this.first = newNode;
+      this.last = newNode;
     } else if (this.length === 1) {
-      newNode.next = this.head;
-      this.head = newNode;
-      this.tail = newNode.next;
+      newNode.next = this.first;
+      this.first = newNode;
+      this.last = newNode.next;
     } else {
-      newNode.next = this.head;
-      this.head = newNode;
+      newNode.next = this.first;
+      this.first = newNode;
     }
     this.length++;
     return this.length;
@@ -53,13 +53,13 @@ class Stack {
 
   shift() {
     if (this.length === 0) return undefined;
-    let removedNode = this.head;
+    let removedNode = this.first;
     if (this.length === 1) {
-      this.head = null;
-      this.tail = null;
+      this.first = null;
+      this.last = null;
       this.length = 0;
     } else {
-      this.head = this.head.next;
+      this.first = this.first.next;
       this.length--;
     }
     removedNode.next = null;
@@ -87,22 +87,26 @@ let stack = new Stack();
 // queue.shift()
 
 //best to use push and unshift
+//for the queue, there's no way around
+//(when using an array) an O(n) time
+//complexity. with a custom linkedlist class,
+//queue methods will be O(1)
 
 class Queue {
   constructor() {
-    this.head = null;
-    this.tail = null;
+    this.first = null;
+    this.last = null;
     this.length = 0;
   }
 
   push(value) {
     let newNode = new Node(value);
     if (this.length === 0) {
-      this.head = newNode;
-      this.tail = newNode;
+      this.first = newNode;
+      this.last = newNode;
     } else {
-      this.tail.next = newNode;
-      this.tail = newNode;
+      this.last.next = newNode;
+      this.last = newNode;
     }
     this.length++;
     return this.length;
@@ -110,12 +114,12 @@ class Queue {
 
   unshift() {
     if (this.length === 0) return undefined;
-    let removedNode = this.head;
+    let removedNode = this.first;
     if (this.length === 1) {
-      this.tail = null;
-      this.head = null;
+      this.last = null;
+      this.first = null;
     } else {
-      this.head = this.head.next;
+      this.first = this.first.next;
     }
     this.length--;
     removedNode.next = null;
