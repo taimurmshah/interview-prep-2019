@@ -90,6 +90,52 @@ class BinarySearchTree {
       return helper(newNode, this.root);
     }
   }
+
+  //iterative find
+  find(value) {
+    if (!this.root || !value) return undefined;
+    let currentNode = this.root;
+    while (true) {
+      if (value > currentNode.value) {
+        if (!currentNode.right) {
+          return false;
+        } else if (currentNode.right.value === value) {
+          return true;
+        } else {
+          currentNode = currentNode.right;
+        }
+      } else if (value < currentNode.value) {
+        if (!currentNode.left) {
+          return false;
+        } else if (currentNode.left.value === value) {
+          return true;
+        } else {
+          currentNode = currentNode.left;
+        }
+      } else if (value === currentNode.value) {
+        return true;
+      }
+    }
+  }
+
+  //recursive find
+  rfind(value) {
+    if (!this.root || !value) return undefined;
+    let helper = (value, currentNode = this.root) => {
+      if (value > currentNode.value) {
+        if (!currentNode.right) return false;
+        else {
+          return helper(value, currentNode.right);
+        }
+      } else if (value < currentNode.value) {
+        if (!currentNode.left) return false;
+        else {
+          return helper(value, currentNode.left);
+        }
+      } else return true;
+    };
+    return helper(value);
+  }
 }
 
 let basic = new BinarySearchTree();
