@@ -136,6 +136,70 @@ class BinarySearchTree {
     };
     return helper(value);
   }
+
+  //iterative
+  bfs() {
+    let queue = [this.root];
+    let visited = [];
+    let i = 0;
+    while (queue.length > 0) {
+      visited.push(queue.shift());
+      if (!!visited[i].right && !!visited[i].left) {
+        queue.push(visited[i].left);
+        queue.push(visited[i].right);
+      } else if (!!visited[i].left && !visited[i].right) {
+        queue.push(visited[i].left);
+      } else if (!visited[i].left && !!visited[i].right) {
+        queue.push(visited[i].right);
+      }
+      i++;
+    }
+    visited = visited.map(node => {
+      return node.value;
+    });
+    return visited;
+  }
+
+  //DFS
+  DFSPreOrder() {
+    if (!this.root) return null;
+    let store = [];
+
+    let helper = (currentNode = this.root) => {
+      store.push(currentNode.value);
+      if (currentNode.left) helper(currentNode.left);
+      if (currentNode.right) helper(currentNode.right);
+    };
+    helper();
+    return store;
+  }
+
+  DFSPostOrder() {
+    if (!this.root) return null;
+    let store = [];
+
+    let helper = (currentNode = this.root) => {
+      if (currentNode.left) helper(currentNode.left);
+      if (currentNode.right) helper(currentNode.right);
+      store.push(currentNode.value);
+    };
+    helper();
+    return store;
+  }
+
+  DFSInOrder() {
+    if (!this.root) return null;
+    let store = [];
+
+    let helper = (currentNode = this.root) => {
+      if (currentNode.left) helper(currentNode.left);
+      store.push(currentNode.value);
+      if (currentNode.right) helper(currentNode.right);
+    };
+
+    helper();
+    return store;
+  }
 }
 
 let basic = new BinarySearchTree();
@@ -147,3 +211,13 @@ basic.insert(32);
 basic.insert(100);
 basic.insert(14);
 basic.insert(3);
+
+let notSorted = new BinarySearchTree();
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~Tree Traversal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+//BFS = breadth-first search
+//DFS = depth-first search
+//this section is about tree traversal, but NOT for BSTs
+//which are already sorted; tree traversal here refers to
+//trees (not sure if it's only binary; i dont think so)
