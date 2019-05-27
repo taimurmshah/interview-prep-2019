@@ -11,14 +11,14 @@ class MaxBinaryHeap {
     return newIndex;
   }
 
+  //pushes into array, then value bubbles until
+  //correct value is found
   insert(value) {
-    // debugger;
     this.values.push(value);
     if (this.values.length === 1) return this;
     let childIndex = this.values.length - 1;
     let parentIndex = this.getParent(childIndex);
     while (this.values[childIndex] > this.values[parentIndex]) {
-      // debugger
       [this.values[childIndex], this.values[parentIndex]] = [
         this.values[parentIndex],
         this.values[childIndex]
