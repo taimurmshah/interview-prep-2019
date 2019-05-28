@@ -5,9 +5,8 @@ class MaxBinaryHeap {
     this.values = [];
   }
 
-  getParent(index) {
+  getParentIndex(index) {
     let newIndex = Math.floor((index - 1) / 2);
-
     return newIndex;
   }
 
@@ -39,33 +38,39 @@ class MaxBinaryHeap {
     if (this.values.length === 2) return 1;
     let left = this.values[2 * index + 1];
     let right = this.values[2 * index + 2];
-    return !!(left > right) ? 2 * index + 1 : 2 * index + 2;
+    if (left && right) {
+      return !!(left > right) ? 2 * index + 1 : 2 * index + 2;
+    } else if (!right) {
+      return 2 * index + 1;
+    }
   }
   //pushes into array, then value bubbles until
-  //correct value is found
+  //correct location is found
   insert(value) {
     this.values.push(value);
     if (this.values.length === 1) return this;
     let childIndex = this.values.length - 1;
-    let parentIndex = this.getParent(childIndex);
-    while (this.values[childIndex] > this.values[parentIndex]) {
-      [this.values[childIndex], this.values[parentIndex]] = [
-        this.values[parentIndex],
-        this.values[childIndex]
-      ];
-      childIndex = parentIndex;
-      parentIndex = this.getParent(childIndex);
+    let parentIndex = this.getParentIndex(childIndex);
+    // debugger;
+    while (this.values[childIndex] && this.values[parentIndex]) {
+      if (this.values[childIndex] > this.values[parentIndex]) {
+        [this.values[childIndex], this.values[parentIndex]] = [
+          this.values[parentIndex],
+          this.values[childIndex]
+        ];
+        childIndex = parentIndex;
+        parentIndex = this.getParentIndex(childIndex);
+      } else break;
     }
     return this.values;
   }
 
   extractMax() {
     if (this.values.length === 0) return null;
-    let removedValue = this.values.shift();
     if (this.values.length === 1) {
-      console.log("new heap:", this.values);
-      return removedValue;
+      return this.values.shift();
     }
+    let removedValue = this.values.shift();
     this.values.unshift(this.values.pop());
     let sunkIndex = 0;
     let bigKidIndex = this.greaterChildIndex(sunkIndex);
@@ -88,6 +93,55 @@ maxHeap.insert(100);
 maxHeap.insert(32);
 maxHeap.insert(23);
 maxHeap.insert(17);
-maxHeap.insert(31);
-maxHeap.insert(2);
-maxHeap.insert(21);
+// maxHeap.insert(31);
+// maxHeap.insert(2);
+// maxHeap.insert(21);
+
+/*~~~~~~~~~~~~~Priority Queue~~~~~~~~~~~~~*/
+
+class Node {
+  constructor(value, priority) {
+    this.value = value;
+    this.priority = priority;
+  }
+}
+
+class PriorityQueue {
+  constructor() {
+    this.values = [];
+  }
+
+  getParentIndex(index) {
+    let newIndex = Math.floor((index - 1) / 2);
+    return newIndex;
+  }
+
+  enqueue(value, priority) {
+    let newNode = new Node(value, priority);
+    this.values.push(newNode);
+    if (this.values.length === 0) return this.values;
+    let childIndex = this.values.length - 1;
+    let parentIndex = this.getParentIndex(childIndex);
+    while (this.values[childIndex] && this.values[parentIndex]) {
+      if (
+        this.values[childIndex].priority < this.values[parentIndex].priority
+      ) {
+        [this.values[childIndex], this.values[parentIndex]] = [
+          this.values[parentIndex],
+          this.values[childIndex]
+        ];
+        childIndex = parentIndex;
+        parentIndex = this.getParentIndex(childIndex);
+      } else break;
+    }
+    return this.values;
+  }
+}
+
+let priorityQueue = new PriorityQueue();
+// priorityQueue.enqueue("a", 6);
+// priorityQueue.enqueue("e", 5);
+// priorityQueue.enqueue("i", 4);
+// priorityQueue.enqueue("o", 3);
+// priorityQueue.enqueue("u", 2);
+// priorityQueue.enqueue("y", 1);
