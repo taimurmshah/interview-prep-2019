@@ -136,12 +136,51 @@ class PriorityQueue {
     }
     return this.values;
   }
+
+  higherPriorityChild(index) {
+    if (this.length <= 1) return null;
+    if (this.length === 2) return 1;
+    let left = this.values[2 * index + 1];
+    let right = this.values[2 * index + 2];
+    if (left && right) {
+      return left.priority < right.priority ? 2 * index + 1 : 2 * index + 2;
+    } else if (!right) {
+      return 2 * index + 1;
+    } else return null;
+  }
+
+  dequeue() {
+    if (this.values.length === 0) return null;
+    if (this.values.length === 1) {
+      console.log(this.values);
+      return this.values.shift();
+    }
+    let removedValue = this.values.shift();
+    this.values.unshift(this.values.pop());
+    let currentValue = 0;
+    let highPriorityChild = this.higherPriorityChild(currentValue);
+    while (this.values[currentValue] && this.values[highPriorityChild]) {
+      if (
+        this.values[currentValue].priority >
+        this.values[highPriorityChild].priority
+      ) {
+        [this.values[currentValue], this.values[highPriorityChild]] = [
+          this.values[highPriorityChild],
+          this.values[currentValue]
+        ];
+        currentValue = highPriorityChild;
+        highPriorityChild = this.higherPriorityChild(currentValue);
+      } else break;
+    }
+    console.log(this.values);
+    return removedValue;
+  }
 }
 
 let priorityQueue = new PriorityQueue();
-// priorityQueue.enqueue("a", 6);
-// priorityQueue.enqueue("e", 5);
-// priorityQueue.enqueue("i", 4);
-// priorityQueue.enqueue("o", 3);
-// priorityQueue.enqueue("u", 2);
-// priorityQueue.enqueue("y", 1);
+priorityQueue.enqueue("a", 6);
+priorityQueue.enqueue("e", 5);
+priorityQueue.enqueue("i", 4);
+priorityQueue.enqueue("o", 3);
+priorityQueue.enqueue("u", 2);
+priorityQueue.enqueue("y", 1);
