@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data-Structures/Graphs/dijkstra.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Structures/Graphs/dijkstra_final.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/dynamic_programming.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/sorts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/problems.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data-Structures/Graphs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/Graphs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Structures/Graphs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/Graphs/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +21,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data-Structures/Graphs/index.html">
+        <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="440" selection-start-line="440" selection-end-line="440" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3675">
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
+              <folding>
+                <element signature="e#26#395#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data-Structures/Graphs/dijkstra_final.js">
+        <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-              <folding>
-                <element signature="n#Node#0" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -65,12 +84,15 @@
         <option value="$PROJECT_DIR$/Data-Structures/HashTables/index.js" />
         <option value="$PROJECT_DIR$/Data-Structures/DoublyLinkedList/index.html" />
         <option value="$PROJECT_DIR$/Algorithms/bh.html" />
-        <option value="$PROJECT_DIR$/Algorithms/index.html" />
         <option value="$PROJECT_DIR$/Data-Structures/BinaryHeaps/index.js" />
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/index.js" />
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/dijkstra.js" />
-        <option value="$PROJECT_DIR$/Data-Structures/Graphs/index.html" />
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/dijkstra_final.js" />
+        <option value="$PROJECT_DIR$/Data-Structures/Graphs/index.html" />
+        <option value="$PROJECT_DIR$/Algorithms/index.html" />
+        <option value="$PROJECT_DIR$/Algorithms/problems.js" />
+        <option value="$PROJECT_DIR$/Algorithms/sorts.js" />
+        <option value="$PROJECT_DIR$/Algorithms/dynamic_programming.js" />
       </list>
     </option>
   </component>
@@ -95,13 +117,7 @@
             <path>
               <item name="interview-prep-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview-prep-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-prep-2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-prep-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,12 +164,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
-      <workItem from="1559168431203" duration="18448000" />
+      <workItem from="1559168431203" duration="20666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18628000" />
+    <option name="totallyTimeSpent" value="20846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,16 +264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data-Structures/Stacks_Queues/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
@@ -307,20 +313,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Structures/Graphs/index.html">
+    <entry file="file://$PROJECT_DIR$/Data-Structures/Graphs/dijkstra_final.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="168">
+          <caret line="147" column="21" lean-forward="true" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+          <folding>
+            <element signature="n#WeightedGraph#0" />
+            <element signature="n#PriorityQueue#0" />
+            <element signature="n#Node#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Structures/Graphs/dijkstra_final.js">
+    <entry file="file://$PROJECT_DIR$/Data-Structures/Graphs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="440" selection-start-line="440" selection-end-line="440" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
           <folding>
-            <element signature="n#Node#0" />
+            <element signature="e#26#395#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
