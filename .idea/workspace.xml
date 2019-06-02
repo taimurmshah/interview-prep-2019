@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/dynamic_programming.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/sorts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/problems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Structures/Graphs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/Graphs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/dynamic_programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/dynamic_programming.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="588">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-294" />
     <option name="y" value="-1080" />
     <option name="width" value="954" />
@@ -164,12 +160,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
-      <workItem from="1559168431203" duration="20666000" />
+      <workItem from="1559168431203" duration="21904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20846000" />
+    <option name="totallyTimeSpent" value="22084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,10 +177,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-294" y="-1080" width="954" height="1080" extended-state="0" />
+    <frame x="-294" y="-1080" width="954" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20685959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20685959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="588">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
