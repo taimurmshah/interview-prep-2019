@@ -47,15 +47,17 @@ let selectionSort = array => {
 selectionSort([0, 2, 34, 22, 10, 19, 17]);
 selectionSort([99, 1, 98, 2, 97, 3]);
 
-//i really need to study insertionSort, it's not clicking for me.
 let insertionSort = array => {
   let storedValue;
   let insertionIndex;
+  let j;
   for (let i = 1; i < array.length; i++) {
     storedValue = array[i];
-    for (let j = i - 1; j >= 0 && array[j] > storedValue; j--) {
+    j = i - 1;
+    while (array[j] > storedValue && j >= 0) {
       array[j + 1] = array[j];
       insertionIndex = j;
+      j--;
     }
     if (array[insertionIndex] > storedValue) {
       array[insertionIndex] = storedValue;
@@ -63,7 +65,6 @@ let insertionSort = array => {
   }
   return array;
 };
-// insertionSort([2, 1, 9, 76, 4]);
 
 let merge = (array1, array2) => {
   let j = 0;
