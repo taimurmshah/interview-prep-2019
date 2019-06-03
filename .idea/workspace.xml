@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Algorithms/sorts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sorts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/helperMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/sorting-algorithms/bubbleSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/sorting-algorithms/insertionSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/sorting-algorithms/mergeSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/sorting-algorithms/selectionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/sorts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sorting-algorithms/sorts.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,22 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#31#331#0" />
-                <element signature="e#2325#2903#0" />
-                <element signature="e#2931#3234#0" />
-                <element signature="e#3406#3648#0" />
-                <element signature="e#3713#3877#0" />
-                <element signature="e#3914#3983#0" />
-                <element signature="e#4013#4106#0" />
-                <element signature="e#4135#4305#0" />
-                <element signature="e#4333#4704#0" />
-              </folding>
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/mergeSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="184" selection-start-line="16" selection-start-column="184" selection-end-line="16" selection-end-column="184" />
             </state>
           </provider>
         </entry>
@@ -67,9 +72,15 @@
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/index.html" />
         <option value="$PROJECT_DIR$/Algorithms/problems.js" />
         <option value="$PROJECT_DIR$/Algorithms/dynamic_programming.js" />
-        <option value="$PROJECT_DIR$/Algorithms/index.html" />
         <option value="$PROJECT_DIR$/../Downloads/selection-sort.js" />
         <option value="$PROJECT_DIR$/Algorithms/sorts.js" />
+        <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/bubbleSort.js" />
+        <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/helperMethods.js" />
+        <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/selectionSort.js" />
+        <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/insertionSort.js" />
+        <option value="$PROJECT_DIR$/Algorithms/index.html" />
+        <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/sorts.js" />
+        <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/mergeSort.js" />
       </list>
     </option>
   </component>
@@ -78,6 +89,9 @@
     <option name="y" value="-986" />
     <option name="width" value="1548" />
     <option name="height" value="794" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -95,6 +109,12 @@
               <item name="interview-prep-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview-prep-2019" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-prep-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-prep-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting-algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,6 +137,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2825112" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithms" />
+      <recent name="$PROJECT_DIR$/Algorithms/sorting-algorithms" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
-      <workItem from="1559168431203" duration="31394000" />
+      <workItem from="1559168431203" duration="34776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31574000" />
+    <option name="totallyTimeSpent" value="34956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,7 +187,7 @@
     <frame x="-294" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22732124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14165351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -316,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9240">
@@ -347,21 +366,51 @@
     <entry file="file://$PROJECT_DIR$/../Downloads/insertion-sort (1).js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/bubbleSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/selectionSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#31#331#0" />
-            <element signature="e#2325#2903#0" />
-            <element signature="e#2931#3234#0" />
-            <element signature="e#3406#3648#0" />
-            <element signature="e#3713#3877#0" />
-            <element signature="e#3914#3983#0" />
-            <element signature="e#4013#4106#0" />
-            <element signature="e#4135#4305#0" />
-            <element signature="e#4333#4704#0" />
-          </folding>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/helperMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/insertionSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/sorts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/mergeSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="184" selection-start-line="16" selection-start-column="184" selection-end-line="16" selection-end-column="184" />
         </state>
       </provider>
     </entry>
