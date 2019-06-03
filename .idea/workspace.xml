@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/dynamic_programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/dynamic_programming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/sorts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sorts.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,47 +15,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="440" selection-start-line="440" selection-end-line="440" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
-              <folding>
-                <element signature="e#26#395#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="9240">
+                  <caret line="440" selection-start-line="440" selection-end-line="440" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#758#1092#0" />
+                    <element signature="e#1125#1460#0" />
+                    <element signature="e#1615#1951#0" />
+                    <element signature="e#1984#2290#0" />
+                    <element signature="e#2325#2903#0" />
+                    <element signature="e#2931#3234#0" />
+                    <element signature="e#3275#3345#0" />
+                    <element signature="e#3406#3648#0" />
+                    <element signature="e#3713#3877#0" />
+                    <element signature="e#3914#3983#0" />
+                    <element signature="e#4013#4106#0" />
+                    <element signature="e#4135#4305#0" />
+                    <element signature="e#4333#4704#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../Downloads/optimized-bubble.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,18 +106,18 @@
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/dijkstra.js" />
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/dijkstra_final.js" />
         <option value="$PROJECT_DIR$/Data-Structures/Graphs/index.html" />
-        <option value="$PROJECT_DIR$/Algorithms/index.html" />
         <option value="$PROJECT_DIR$/Algorithms/problems.js" />
-        <option value="$PROJECT_DIR$/Algorithms/sorts.js" />
         <option value="$PROJECT_DIR$/Algorithms/dynamic_programming.js" />
+        <option value="$PROJECT_DIR$/Algorithms/index.html" />
+        <option value="$PROJECT_DIR$/Algorithms/sorts.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-294" />
-    <option name="y" value="-1080" />
-    <option name="width" value="954" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-188" />
+    <option name="y" value="-986" />
+    <option name="width" value="1548" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,12 +181,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
-      <workItem from="1559168431203" duration="21904000" />
+      <workItem from="1559168431203" duration="23822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22084000" />
+    <option name="totallyTimeSpent" value="24002000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,10 +198,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-294" y="-1080" width="954" height="1080" extended-state="6" />
+    <frame x="-294" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20685959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112164296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -199,7 +220,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2113127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13995649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,10 +229,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27665997" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27665997" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,34 +349,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
+    <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="440" selection-start-line="440" selection-end-line="440" />
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/optimized-bubble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9240">
+          <caret line="440" selection-start-line="440" selection-end-line="440" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        <state relative-caret-position="357">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <element signature="e#26#395#0" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#758#1092#0" />
+            <element signature="e#1125#1460#0" />
+            <element signature="e#1615#1951#0" />
+            <element signature="e#1984#2290#0" />
+            <element signature="e#2325#2903#0" />
+            <element signature="e#2931#3234#0" />
+            <element signature="e#3275#3345#0" />
+            <element signature="e#3406#3648#0" />
+            <element signature="e#3713#3877#0" />
+            <element signature="e#3914#3983#0" />
+            <element signature="e#4013#4106#0" />
+            <element signature="e#4135#4305#0" />
+            <element signature="e#4333#4704#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/dynamic_programming.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
