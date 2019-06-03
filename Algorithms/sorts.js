@@ -1,3 +1,8 @@
+//ES2015 swapping syntax.
+let swap = (array, index1, index2) => {
+  [array[index1], array[index2]] = [array[index2], array[index1]];
+};
+
 /* Bubble sort is a sorting algorithm in which the largest value
  * per each iteration bubbles to the end of the array, in place.
  * the way it works is that two elements are constantly being compared:
@@ -13,7 +18,7 @@ let bubbleSort = array => {
     noSwaps = true;
     for (let j = 0; j < i - 1; j++) {
       if (array[j] > array[j + 1]) {
-        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+        swap(array, j, j + 1);
         noSwaps = false;
       }
     }
@@ -21,35 +26,21 @@ let bubbleSort = array => {
   }
   return array;
 };
+//tests:
+bubbleSort([5, 4, 3, 2, 1]);
+bubbleSort([99, 1, 98, 2, 97, 3]);
 
 let selectionSort = array => {
+  let lowestValue;
   for (let i = 0; i < array.length; i++) {
-    let smallest = i;
-    for (let j = i; j < array.length; j++) {
-      smallest = Math.min(smallest, array[j]);
-    }
-    let temp = array[i];
-    let smallIndex = array.indexOf(smallest);
-    array[i] = array[array.indexOf(smallest)];
-    array[smallIndex] = temp;
-  }
-  return array;
-};
-
-let selectionSort2 = array => {
-  for (let i = 0; i < array.length; i++) {
-    let smallest = array[i];
+    lowestValue = i;
     for (let j = i + 1; j < array.length; j++) {
-      if (array[j] < smallest) {
-        smallest = array[j];
+      if (array[j] < array[lowestValue]) {
+        lowestValue = j;
       }
     }
-    if (smallest !== array[i]) {
-      array[array.indexOf(smallest)] = array[i];
-      array[i] = smallest;
-    }
+    swap(array, i, lowestValue);
   }
-  return array;
 };
 
 //example will be [5, 1, 3, 4, 2]
@@ -122,10 +113,6 @@ let mergeSort = array => {
     let array2 = mergeSort(array.slice(middle));
     return merge(array1, array2);
   }
-};
-
-let swap = (array, index1, index2) => {
-  [array[index1], array[index2]] = [array[index2], array[index1]];
 };
 
 let pivot = (array, start = 0, end = array.length - 1) => {
