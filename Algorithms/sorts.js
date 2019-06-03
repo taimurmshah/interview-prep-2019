@@ -39,42 +39,31 @@ let selectionSort = array => {
         lowestValue = j;
       }
     }
-    swap(array, i, lowestValue);
+    if (i !== lowestValue) swap(array, i, lowestValue);
   }
+  return array;
 };
+// to test: put some lowest values in the beginning (in place)
+selectionSort([0, 2, 34, 22, 10, 19, 17]);
+selectionSort([99, 1, 98, 2, 97, 3]);
 
-//example will be [5, 1, 3, 4, 2]
-//swap: [a, b] = [b, a]
-//fuck me, this breaks when there is a small value
-//at the end!
+//i really need to study insertionSort, it's not clicking for me.
 let insertionSort = array => {
-  for (i = 1; i < array.length; i++) {
-    if (array[i] < array[0]) {
-      [array[0], array[i]] = [array[i], array[0]];
-    } else if (array[i] < array[i - 1]) {
-      for (let j = 1; j < i; j++) {
-        if (array[i] < array[j]) {
-          [array[j], array[i]] = [array[i], array[j]];
-        }
-      }
-    }
-  }
-  return array;
-};
-
-let insertionSort2 = array => {
+  let storedValue;
+  let insertionIndex;
   for (let i = 1; i < array.length; i++) {
-    let currentValue = array[i];
-    for (let j = i - 1; j >= 0; j--) {
-      if (array[j] > currentValue) {
-        let temp = array[j];
-        array[array.indexOf(currentValue)] = array[j];
-        array[j] = currentValue;
-      }
+    storedValue = array[i];
+    for (let j = i - 1; j >= 0 && array[j] > storedValue; j--) {
+      array[j + 1] = array[j];
+      insertionIndex = j;
+    }
+    if (array[insertionIndex] > storedValue) {
+      array[insertionIndex] = storedValue;
     }
   }
   return array;
 };
+// insertionSort([2, 1, 9, 76, 4]);
 
 let merge = (array1, array2) => {
   let j = 0;

@@ -14,47 +14,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
-                  <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#31#331#0" />
-                    <element signature="e#1615#1951#0" />
-                    <element signature="e#1984#2290#0" />
-                    <element signature="e#2325#2903#0" />
-                    <element signature="e#2931#3234#0" />
-                    <element signature="e#3406#3648#0" />
-                    <element signature="e#3713#3877#0" />
-                    <element signature="e#3914#3983#0" />
-                    <element signature="e#4013#4106#0" />
-                    <element signature="e#4135#4305#0" />
-                    <element signature="e#4333#4704#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../Downloads/selection-sort.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+              <folding>
+                <element signature="e#31#331#0" />
+                <element signature="e#2325#2903#0" />
+                <element signature="e#2931#3234#0" />
+                <element signature="e#3406#3648#0" />
+                <element signature="e#3713#3877#0" />
+                <element signature="e#3914#3983#0" />
+                <element signature="e#4013#4106#0" />
+                <element signature="e#4135#4305#0" />
+                <element signature="e#4333#4704#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,12 +141,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
-      <workItem from="1559168431203" duration="25186000" />
+      <workItem from="1559168431203" duration="30525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25366000" />
+    <option name="totallyTimeSpent" value="30705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,10 +158,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-294" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="-294" y="-1080" width="958" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.112164296" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22732124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,19 +339,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Downloads/selection-sort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="714">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/insertion-sort (1).js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/sorts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="371">
+          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
           <folding>
             <element signature="e#31#331#0" />
-            <element signature="e#1615#1951#0" />
-            <element signature="e#1984#2290#0" />
             <element signature="e#2325#2903#0" />
             <element signature="e#2931#3234#0" />
             <element signature="e#3406#3648#0" />
