@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/problems.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="448" selection-end-column="2" />
+            <state relative-caret-position="449">
+              <caret line="450" selection-start-line="450" selection-end-line="454" />
             </state>
           </provider>
         </entry>
@@ -97,11 +96,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-294" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-147" />
+    <option name="y" value="-922" />
+    <option name="width" value="1440" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,12 +180,12 @@
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
       <workItem from="1559168431203" duration="40094000" />
-      <workItem from="1559622101271" duration="336000" />
+      <workItem from="1559622101271" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40610000" />
+    <option name="totallyTimeSpent" value="40983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,10 +197,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-294" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="-147" y="-922" width="1440" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14165351" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,7 +212,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27665997" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33783785" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -428,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="448" selection-end-column="2" />
+        <state relative-caret-position="449">
+          <caret line="450" selection-start-line="450" selection-end-line="454" />
         </state>
       </provider>
     </entry>

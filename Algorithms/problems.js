@@ -447,3 +447,8 @@ let sentenceCreator = () => {
   };
   return yara;
 };
+
+let mooj = sentenceCreator();
+let one = mooj();
+let two = mooj();
+let three = mooj();
