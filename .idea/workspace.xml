@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/problems.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="487" column="50" selection-start-line="487" selection-start-column="50" selection-end-line="487" selection-end-column="50" />
+            <state relative-caret-position="332">
+              <caret line="497" selection-start-line="497" selection-start-column="3" selection-end-line="497" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -148,12 +147,12 @@
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
       <workItem from="1559168431203" duration="40094000" />
-      <workItem from="1559622101271" duration="1293000" />
+      <workItem from="1559622101271" duration="1458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41567000" />
+    <option name="totallyTimeSpent" value="41732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -168,7 +167,7 @@
     <frame x="-157" y="-982" width="1440" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -180,7 +179,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33783785" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33783785" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="487" column="50" selection-start-line="487" selection-start-column="50" selection-end-line="487" selection-end-column="50" />
+        <state relative-caret-position="332">
+          <caret line="497" selection-start-line="497" selection-start-column="3" selection-end-line="497" selection-end-column="56" />
         </state>
       </provider>
     </entry>
