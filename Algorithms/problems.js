@@ -438,3 +438,12 @@ let binarySearch = (array, value) => {
   }
   return -1;
 };
+
+let sentenceCreator = () => {
+  let word = "";
+  let yara = () => {
+    word = word + Math.round(Math.random() * 10);
+    return word;
+  };
+  return yara;
+};
