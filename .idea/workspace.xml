@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/problems.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,38 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/quickSort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="450" selection-start-line="450" selection-end-line="454" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/sorts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="686">
+              <caret line="487" column="50" selection-start-line="487" selection-start-column="50" selection-end-line="487" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -97,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-147" />
-    <option name="y" value="-922" />
+    <option name="x" value="-157" />
+    <option name="y" value="-982" />
     <option name="width" value="1440" />
     <option name="height" value="922" />
   </component>
@@ -122,12 +96,6 @@
               <item name="interview-prep-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview-prep-2019" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-prep-2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-prep-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting-algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,12 +148,12 @@
       <updated>1559159741884</updated>
       <workItem from="1559159743152" duration="180000" />
       <workItem from="1559168431203" duration="40094000" />
-      <workItem from="1559622101271" duration="709000" />
+      <workItem from="1559622101271" duration="1293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40983000" />
+    <option name="totallyTimeSpent" value="41567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -197,10 +165,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-147" y="-922" width="1440" height="922" extended-state="0" />
+    <frame x="-157" y="-982" width="1440" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,7 +180,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33783785" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33783785" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -406,7 +374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="248">
           <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
         </state>
       </provider>
@@ -427,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="450" selection-start-line="450" selection-end-line="454" />
+        <state relative-caret-position="686">
+          <caret line="487" column="50" selection-start-line="487" selection-start-column="50" selection-end-line="487" selection-end-column="50" />
         </state>
       </provider>
     </entry>

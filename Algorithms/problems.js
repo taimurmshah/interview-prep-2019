@@ -439,6 +439,7 @@ let binarySearch = (array, value) => {
   return -1;
 };
 
+//tracking closures
 let sentenceCreator = () => {
   let word = "";
   let yara = () => {
@@ -452,3 +453,46 @@ let mooj = sentenceCreator();
 let one = mooj();
 let two = mooj();
 let three = mooj();
+
+//from technical interview:
+const myIngredients = ["elk", "butter", "coconut oil"];
+const storeInventory = [
+  "oil",
+  "steak",
+  "onions",
+  "butter",
+  "cheese",
+  "elk",
+  "chocolate",
+  "spinach",
+  "coconut oil"
+];
+
+let shopping = (ingredients, inventory) => {
+  if (
+    ingredients.length < 1 ||
+    inventory.length < 1 ||
+    inventory.length < ingredients.length
+  ) {
+    return false;
+  }
+  let groceryList = {};
+  for (let i = 0; i < ingredients.length; i++) {
+    if (!groceryList[ingredients[i]]) {
+      groceryList[ingredients[i]] = 1;
+    } else {
+      groceryList[ingredients[i]]++;
+    }
+  }
+  for (let j = 0; j < inventory.length; j++) {
+    if (groceryList[inventory[j]]) {
+      groceryList[inventory[j]]--;
+      if (groceryList[inventory[j]] === 0) {
+        delete groceryList[inventory[j]];
+      }
+    }
+  }
+  return !Object.keys(groceryList).length;
+};
+
+console.log(shopping(myIngredients, storeInventory));
