@@ -495,4 +495,4 @@ let shopping = (ingredients, inventory) => {
   return !Object.keys(groceryList).length;
 };
 
-// console.log(shopping(myIngredients, storeInventory));
+console.log(shopping(myIngredients, storeInventory));
