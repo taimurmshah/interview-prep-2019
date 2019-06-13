@@ -14,31 +14,35 @@ let getDigit = (place, number) => {
   return parseInt(string[string.length - place - 1]);
 };
 
-let maxDigit = array => {
-  if (array.length === 0) return undefined;
-  let max = 0;
-  for (let i = 0; i < array.length; i++) {
-    max = Math.max(max, length(array[i]));
-  }
-  return max;
-};
-
-let length = number => {
+let numOfDigits = number => {
   if (number === 0) return 0;
   number = Math.abs(number);
   return Math.floor(Math.log(number) * Math.LOG10E + 1);
 };
 
+let maxDigit = array => {
+  if (array.numOfDigits === 0) return undefined;
+  let max = 0;
+  for (let i = 0; i < array.length; i++) {
+    max = Math.max(max, numOfDigits(array[i]));
+  }
+  return max;
+};
+
 let radixSort = array => {
   let max = maxDigit(array);
   let buckets;
-  for (let j = 1; j <= max; j++) {
+  for (let j = 0; j < max; j++) {
+    //the line below creates an array with 10 subarrays,
+    // and the mapfn specified what to return in each array
     buckets = Array.from({ length: 10 }, () => []);
-
     for (let i = 0; i < array.length; i++) {
+      //pushing the number into the correct bucket
+      //by getting it's value @ index: j
       buckets[getDigit(j, array[i])].push(array[i]);
     }
-    console.log("j:", j, "buckets:", buckets);
+    //memorize this line... creating a new array and concat/spread
+    //the values in buckets into it!
     array = [].concat(...buckets);
   }
   return array;
