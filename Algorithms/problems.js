@@ -496,3 +496,57 @@ let shopping = (ingredients, inventory) => {
 };
 
 // console.log(shopping(myIngredients, storeInventory));
+
+/*
+ *Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0?
+ * Find all unique triplets in the array which gives the sum of zero.
+ * */
+
+//test:
+//threeSum([-1, 0, 1, 2, -1, -4])
+
+let threeSum = nums => {
+  //creating return array
+  let rtn = [];
+  //edge-case check
+  if (nums.length < 3) {
+    return rtn;
+  }
+  //sorting the array; why?
+  nums = nums.sort(function(a, b) {
+    return a - b;
+  });
+  //loop on sorted array. why ending at length - 2?
+  //so that i can add next two numbers?
+  for (var i = 0; i < nums.length - 2; i++) {
+    //i dont understand this; return returns the function.
+    //here, if an element is greater than 0, it ends the function?
+    debugger;
+    if (nums[i] > 0) {
+      return rtn;
+    }
+    //the fuck?
+    if (i > 0 && nums[i] == nums[i - 1]) {
+      continue;
+    }
+
+    for (var j = i + 1, k = nums.length - 1; j < k; ) {
+      if (nums[i] + nums[j] + nums[k] === 0) {
+        rtn.push([nums[i], nums[j], nums[k]]);
+        j++;
+        k--;
+        while (j < k && nums[j] == nums[j - 1]) {
+          j++;
+        }
+        while (j < k && nums[k] == nums[k + 1]) {
+          k--;
+        }
+      } else if (nums[i] + nums[j] + nums[k] > 0) {
+        k--;
+      } else {
+        j++;
+      }
+    }
+  }
+  return rtn;
+};

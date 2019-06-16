@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Algorithms/sorting-algorithms/radixSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sorting-algorithms/radixSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/problems.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,22 +17,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/radixSort.js">
+        <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="541">
+              <caret line="507" column="23" selection-start-line="507" selection-start-column="23" selection-end-line="507" selection-end-column="23" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#11570#12303#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Downloads/radix-helpers (1).js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -51,6 +43,9 @@
       <find>graph.dijkstra(&quot;A&quot;, &quot;E&quot;)</find>
       <find>radix</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,8 +77,8 @@
         <option value="$PROJECT_DIR$/Algorithms/test.html" />
         <option value="$PROJECT_DIR$/Algorithms/redo.js" />
         <option value="$PROJECT_DIR$/Algorithms/index.html" />
-        <option value="$PROJECT_DIR$/Algorithms/problems.js" />
         <option value="$PROJECT_DIR$/Algorithms/sorting-algorithms/radixSort.js" />
+        <option value="$PROJECT_DIR$/Algorithms/problems.js" />
       </list>
     </option>
   </component>
@@ -93,11 +88,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-294" />
-    <option name="y" value="-1080" />
-    <option name="width" value="958" />
-    <option name="height" value="1080" />
+    <option name="y" value="-877" />
+    <option name="width" value="1440" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,12 +179,12 @@
       <workItem from="1559159743152" duration="180000" />
       <workItem from="1559168431203" duration="40094000" />
       <workItem from="1559622101271" duration="2662000" />
-      <workItem from="1560452993726" duration="4859000" />
+      <workItem from="1560452993726" duration="15488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47795000" />
+    <option name="totallyTimeSpent" value="58424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,10 +196,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-294" y="-1080" width="958" height="1080" extended-state="0" />
+    <frame x="-294" y="-877" width="1440" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28708646" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.41728923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +211,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32997987" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33702213" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4115479" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -449,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8302">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Downloads/radix-sort (1).js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -463,19 +451,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Downloads/radix-helpers (1).js">
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/radixSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="808">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/sorting-algorithms/radixSort.js">
+    <entry file="file://$PROJECT_DIR$/../Downloads/radix-helpers (1).js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/problems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="507" column="23" selection-start-line="507" selection-start-column="23" selection-end-line="507" selection-end-column="23" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#11570#12303#0" />
           </folding>
         </state>
       </provider>
