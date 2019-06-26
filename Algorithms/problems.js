@@ -505,48 +505,25 @@ let shopping = (ingredients, inventory) => {
 //test:
 //threeSum([-1, 0, 1, 2, -1, -4])
 
-let threeSum = nums => {
-  //creating return array
-  let rtn = [];
-  //edge-case check
-  if (nums.length < 3) {
-    return rtn;
-  }
-  //sorting the array; why?
-  nums = nums.sort(function(a, b) {
-    return a - b;
-  });
-  //loop on sorted array. why ending at length - 2?
-  //so that i can add next two numbers?
-  for (var i = 0; i < nums.length - 2; i++) {
-    //i dont understand this; return returns the function.
-    //here, if an element is greater than 0, it ends the function?
-    debugger;
-    if (nums[i] > 0) {
-      return rtn;
-    }
-    //the fuck?
-    if (i > 0 && nums[i] == nums[i - 1]) {
-      continue;
-    }
-
-    for (var j = i + 1, k = nums.length - 1; j < k; ) {
-      if (nums[i] + nums[j] + nums[k] === 0) {
-        rtn.push([nums[i], nums[j], nums[k]]);
-        j++;
-        k--;
-        while (j < k && nums[j] == nums[j - 1]) {
+let threeSum = array => {
+  let answer = [];
+  if (array.length < 3) return undefined;
+  array = array.sort((a, b) => a - b);
+  for (let i = 0; i < array.length - 3; i++) {
+    if (array[i] > 0) return answer;
+    if (i > 0 && array[i] === array[i - 1]) continue;
+    for (let j = i + 1, k = array.length - 1; j < k; ) {
+      while (j < k) {
+        if (array[i] + array[j] + array[k] === 0) {
+          answer.push([array[i], array[j], array[k]]);
           j++;
-        }
-        while (j < k && nums[k] == nums[k + 1]) {
           k--;
-        }
-      } else if (nums[i] + nums[j] + nums[k] > 0) {
-        k--;
-      } else {
-        j++;
+          while (j < k && array[j] === array[j - 1]) j++;
+          while (j < k && array[k] === array[k + 1]) k--;
+        } else if (array[i] + array[j] + array[k] > 0) k--;
+        else j++;
       }
     }
   }
-  return rtn;
+  return answer;
 };

@@ -6,8 +6,7 @@ class MaxBinaryHeap {
   }
 
   getParentIndex(index) {
-    let newIndex = Math.floor((index - 1) / 2);
-    return newIndex;
+    return Math.floor((index - 1) / 2);
   }
 
   getChildren(index) {
@@ -31,8 +30,10 @@ class MaxBinaryHeap {
     }
     children.push(2 * index + 1);
     children.push(2 * index + 2);
+    return children;
   }
 
+  //this function returns the child of greater value.
   greaterChildIndex(index) {
     if (this.values.length <= 1) return undefined;
     if (this.values.length === 2) return 1;
@@ -51,7 +52,6 @@ class MaxBinaryHeap {
     if (this.values.length === 1) return this;
     let childIndex = this.values.length - 1;
     let parentIndex = this.getParentIndex(childIndex);
-    // debugger;
     while (this.values[childIndex] && this.values[parentIndex]) {
       if (this.values[childIndex] > this.values[parentIndex]) {
         [this.values[childIndex], this.values[parentIndex]] = [
@@ -112,8 +112,7 @@ class PriorityQueue {
   }
 
   getParentIndex(index) {
-    let newIndex = Math.floor((index - 1) / 2);
-    return newIndex;
+    return Math.floor((index - 1) / 2);
   }
 
   enqueue(value, priority) {
