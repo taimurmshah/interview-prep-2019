@@ -1,14 +1,18 @@
 //Binary Heaps
 
+//use an array to track the tree structure.
 class MaxBinaryHeap {
   constructor() {
     this.values = [];
   }
 
+  //the value of any node's parent is going to be
+  //the (index - 1)/2, rounded down.
   getParentIndex(index) {
     return Math.floor((index - 1) / 2);
   }
 
+  /* children will be found @ 2(index) + 1 && 2(index) + 2 */
   getChildren(index) {
     let children = [];
     if (this.values.length <= 1) return undefined;
@@ -65,15 +69,28 @@ class MaxBinaryHeap {
     return this.values;
   }
 
+  //why this works: the next largest value is, by definition, going
+  //to be a child of the value i just popped off. So, the best thing
+  //to place the next highest value at the head. if I take the last value,
+  //and bring it to the top, and then bubble and swap it all the way down,
+  //everything will be in it's right place.
   extractMax() {
     if (this.values.length === 0) return null;
     if (this.values.length === 1) {
       return this.values.shift();
     }
+    //this is what will be returned; saving it so that function
+    // can rebalance the heap before returning the value
     let removedValue = this.values.shift();
+    //placing the last value in the array at the head. why?
     this.values.unshift(this.values.pop());
+    //why this?
     let sunkIndex = 0;
+    //finding the child node with greater value
     let bigKidIndex = this.greaterChildIndex(sunkIndex);
+    //while the new smaller value is less than it's child, swap
+    // them, and then replace the value of sunkIndex to the one
+    // I just swappped with.
     while (this.values[sunkIndex] < this.values[bigKidIndex]) {
       [this.values[sunkIndex], this.values[bigKidIndex]] = [
         this.values[bigKidIndex],

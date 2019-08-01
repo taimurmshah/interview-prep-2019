@@ -74,3 +74,104 @@ let quickSort = (array, start = 0, end = array.length - 1) => {
 // console.log(quickSort([5, 5, 7, 6, 6, 2, -100]));
 // console.log(quickSort([1]));
 // console.log(quickSort([]));
+
+//  i   j                      k
+//[-1, 11, 12, -13, 25, -1, 0, 1];
+
+//[[-1, 0, 1], [12, 1, -13]]
+//[1, 0]
+//given an array of numbers, return an array of unique triplets that add up to 0.
+let threeSum = array => {
+  let result = [];
+  if (array.length < 3) return result;
+
+  array = array.sort((a, b) => a - b);
+
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > 0) return result;
+    if (array[i] === array[i + 1]) continue;
+
+    for (let j = i + 1, k = array.length - 1; j < k; ) {
+      while (j < k) {
+        if (array[i] + array[j] + array[k] === 0) {
+          result.push([array[i], array[j], array[k]]);
+          j++;
+          k--;
+          while (j < k && array[j] === array[j + 1]) j++;
+          while (j < k && array[k] === array[k + 1]) k--;
+        } else if (array[i] + array[j] + array[k] > 0) k--;
+        else j++;
+      }
+    }
+  }
+  return result;
+};
+
+//console.log(threeSum([-1, 11, 12, -13, 25, -1, 0, 1]));
+
+//longest substring palindrome
+//any letter in the string can be the middle of a palindrome
+//even number palindromes have double-letter middles
+//odd have single letter middles
+
+let getCenter = (string, index) => {
+  let left = index,
+    right = index;
+  while (right <= string.length && string[left] === string[right + 1]) {
+    right++;
+  }
+  return [left, right];
+};
+
+let expandBounds = (string, left, right) => {
+  while (
+    left >= 0 &&
+    right <= string.length &&
+    string[left] === string[right]
+  ) {
+    left = left - 1;
+    right = right + 1;
+  }
+  return [++left, --right];
+};
+
+let longestPalindrome = string => {
+  string = string.toLowerCase();
+  let start = 0,
+    end = 0;
+  //try to find indices of middle; can be tracked by an array.
+  let center, bounds;
+
+  for (let i = 0; i < string.length; i++) {
+    center = getCenter(string, i);
+    bounds = expandBounds(string, center[0], center[1]);
+    if (bounds[1] - bounds[0] > end - start) {
+      start = bounds[0];
+      end = bounds[1];
+    }
+  }
+  return string.substring(start, end + 1);
+};
+
+//create function that takes in a string and reverses the string in place.
+//well, strings are immutable in JS... so i need to create an array, then use "multiple pointers" to reverse the string in place.
+
+let reverseString = array => {
+  let reversed = [],
+    i = array.length - 1;
+
+  debugger;
+  while (i >= 0) {
+    reversed.push(array[i]);
+    i--;
+  }
+  return reversed;
+};
+//tests:
+//longestPalindrome("abba")
+//longestPalindrome("b")
+//longestPalindrome("color")
+//longestPalindrome("talat")
+//longestPalindrome("tallat")
+
+

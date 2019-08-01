@@ -1,0 +1,79 @@
+ What to know?
+Singly Linked Lists
+Doubly Linked Lists
+Binary Heaps
+BSTs
+Tries
+Graphs
+Hash MapsHash Tables
+Stacks
+Queues
+
+
+
+SLL:
+node class:
+- value
+- next
+SLL class:
+- head
+- tail
+- length
+
+- review reverse
+Questions:
+when do i use them?
+what is the time complexity of different actions?
+
+
+
+ Binary Heaps
+ - type of tree
+ - two types:
+- min
+- max
+ - used to implement priority queues
+ - can model with an array; (I think)
+ -try to memorize mathematical relationship between children nodes and parent nodes
+ - in a max, greatest value is root, and children are always less
+ - methods to remember: insertion and deletion
+- i remember something about bubbling
+
+questions:
+- what are the time complexities?
+- how do i implement insertion
+- how do i create the class itself?
+
+
+ BST
+- only on sorted data; a tree is always sorted.
+- node has two children
+ - left is lesser value
+ - right is greater value
+
+
+
+
+
+
+Graphs
+- weighted, unweighted, directed, undirected
+- I remember the least about graphs
+- DFS, BFS
+- how to do dijkstra's?
+
+
+
+
+
+HASH TABLES
+- use hashing algo to place shit
+- how to handle collisions?
+- how to build a hashing algo?
+- insertion and sort are O(1); constant-time
+- I should re-watch this section.
+
+
+ QUESTIONS:
+- the fuck is a redblack tree
+

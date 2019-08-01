@@ -527,3 +527,104 @@ let threeSum = array => {
   }
   return answer;
 };
+
+//Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+//
+// Example 1:
+//
+// Input: "babad"
+// Output: "bab"
+// Note: "aba" is also a valid answer.
+// Example 2:
+//
+// Input: "cbbd"
+// Output: "bb"
+
+let getCenter = (string, index) => {
+  let left = index,
+    right = index;
+  while (string[left] === string[right + 1] && right < string.length) {
+    right++;
+  }
+  return [left, right];
+};
+
+let expandAroundCenter = (string, left, right) => {
+  let l = left,
+    r = right;
+
+  while (l >= 0 && r < string.length && string[l] === string[r]) {
+    l--;
+    r++;
+  }
+  return [++l, --r];
+};
+
+let longestPalindrome = string => {
+  let start = 0,
+    end = 0;
+  let center;
+  let bounds;
+  for (let i = 0; i < string.length; i++) {
+    center = getCenter(string, i);
+    bounds = expandAroundCenter(string, center[0], center[1]);
+    let left = bounds[0],
+      right = bounds[1];
+    if (right - left >= end - start) {
+      start = left;
+      end = right;
+    }
+    i = center[1];
+  }
+  return string.substring(start, end + 1);
+};
+
+//array anagram mapping. two arrays of positive integers are arguments of a function.
+//the arrays are anagrams of each other; they are duplicates, but not the same order.
+//return an array that is a map of what location the items in array1 appear in array2
+
+let anagramMappings = (a, b) => {
+  if (a.length !== b.length) return null;
+  let map = {};
+  let result = [];
+  for (let i = 0; i < b.length; i++) {
+    if (!map[b[i]]) {
+      map[b[i]] = [i];
+    } else {
+      map[b[i]].push(i);
+    }
+  }
+  for (let i = 0; i < a.length; i++) {
+    if (map[a[i]].length > 1) {
+      result.push(map[a[i]].pop());
+    } else {
+      result.push(map[a[i]][0]);
+    }
+  }
+  return result;
+};
+
+///soldiers
+//given an array of numbers, return the number of times x + 1 exists.
+let soldiers = ranks => {
+  if (ranks.length <= 1) return undefined;
+  let counter = { number: 0 };
+  let num;
+  //i need to find if x + 1 exists. but, i don't want to create x + 1
+  for (let i = 0; i < ranks.length; i++) {
+    num = ranks[i];
+    //right now, i know the first one exists. if either x - 1 or x + 1, set them to true.
+    if (!counter[num]) {
+      counter[num] = true;
+    }
+  }
+
+  for (let k = 0; k < ranks.length; k++) {
+    num = ranks[k] + 1;
+    if (counter[num]) {
+      ++counter["number"];
+    }
+  }
+
+  return counter["number"];
+};
