@@ -149,3 +149,95 @@ let search = (array, value) => {
 // console.log(search([1, 2, 3, 4, 5, 6], 4)); // 3
 // console.log(search([1, 2, 3, 4, 5, 6], 6)); // 5
 // console.log(search([1, 2, 3, 4, 5, 6], 11)); // -1
+
+// Given an array of integers arr where each element is
+// at most k places away from its sorted position, code
+// an efficient function sortKMessedArray that sorts arr.
+// For instance, for an input array of size 10 and k = 2,
+// an element belonging to index 6 in the sorted array will
+// be located at either index 4, 5, 6, 7 or 8 in the input array.
+
+class MinHeap {
+  constructor() {
+    this.values = [];
+  }
+
+  getParent(index) {
+    if (index === 0) return undefined;
+    return Math.floor((index - 1) / 2);
+  }
+
+  getChildrenIndices(index) {
+    if (this.length === 1) return undefined;
+    let children = [];
+    let left = 2 * index + 1;
+    let right = 2 * index + 2;
+    if (right) {
+      children.push(left);
+      children.push(right);
+      return children;
+    } else if (left && !right) {
+      children.push(left);
+      return children;
+    } else return undefined;
+  }
+
+  smallerChildIndex(index) {
+    let children = this.getChildrenIndices(index);
+    if (children.length === 1) return children[0];
+    return Math.min(children[0], children[1]);
+  }
+
+  enqueue(value) {
+    this.values.push(value);
+    if (this.values.length === 1) return this.values;
+    // debugger;
+    let newValueIndex = this.values.length - 1;
+    let parentIndex = this.getParent(newValueIndex);
+    while (this.values[newValueIndex] < this.values[parentIndex]) {
+      swap(this.values, parentIndex, newValueIndex);
+      newValueIndex = parentIndex;
+      parentIndex = this.getParent(newValueIndex);
+    }
+    return this.values;
+  }
+
+  dequeue() {
+    if (this.length === 0) return undefined;
+    let poppedValue;
+    if (this.values.length === 1) {
+      poppedValue = this.values.shift();
+      this.values = [];
+      return poppedValue;
+    }
+    poppedValue = this.values.shift();
+    this.values.unshift(this.values.pop());
+    let sinker = 0;
+    let child = this.smallerChildIndex(sinker);
+    while (this.values[child] < this.values[sinker]) {
+      swap(this.values, child, sinker);
+      sinker = child;
+      child = this.smallerChildIndex(sinker);
+    }
+    return poppedValue;
+  }
+}
+
+let sortKMessedArray = (array, k) => {
+  let heap = new MinHeap();
+  let sorted = [];
+  for (let i = 0; i < k + 1; i++) {
+    heap.enqueue(array[i]);
+  }
+
+  for (let i = k + 1; i < array.length; i++) {
+    sorted.push(heap.dequeue());
+    heap.enqueue(array[i]);
+    console.log("heap.values:", heap.values, "sorted:", sorted);
+  }
+  while (heap.values.length > 0) {
+    sorted.push(heap.dequeue());
+    console.log("heap.values:", heap.values, "sorted:", sorted);
+  }
+  return sorted;
+};

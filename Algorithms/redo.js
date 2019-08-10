@@ -174,4 +174,46 @@ let reverseString = array => {
 //longestPalindrome("talat")
 //longestPalindrome("tallat")
 
+//Word Search
+//https://leetcode.com/problems/word-search/
 
+let exist = (board, word) => {
+  let wordLength = word.length;
+  word = word.split("");
+
+  let test = (i, j, board, wordIndex) => {
+    if (
+      i < 0 ||
+      j < 0 ||
+      i >= board.length ||
+      j >= board[0].length ||
+      word[wordIndex] !== board[i][j] ||
+      wordIndex > wordLength
+    ) {
+      return false;
+    }
+
+    //tracking where i've already been.
+    board[i][j] = null;
+    wordIndex++;
+    if (wordIndex === wordLength) return true;
+    if (test(i + 1, j, board, wordIndex)) return true;
+    if (test(i - 1, j, board, wordIndex)) return true;
+    if (test(i, j + 1, board, wordIndex)) return true;
+    if (test(i, j - 1, board, wordIndex)) return true;
+
+    //if not the correct path, put the letter back;
+    board[i][j] = word[--wordIndex];
+    return false;
+  };
+
+  //iterate through the entire 2-d array.
+  for (let i = 0; i < board.length; i++) {
+    for (let j = 0; j < board[i].length; j++) {
+      if (test(i, j, board, 0)) {
+        return true;
+      }
+    }
+  }
+  return false;
+};
