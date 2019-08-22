@@ -33,7 +33,6 @@ let myMaxIncreaseKeepingSkyline = grid => {
   };
 
   let right = (grid, i, j, xMax) => {
-    // debugger;
     if (j >= grid[0].length) return xMax;
     xMax = Math.max(xMax, grid[i][j]);
     return right(grid, i, j + 1, xMax);
@@ -77,29 +76,25 @@ let myMaxIncreaseKeepingSkyline = grid => {
 
 //this is a fucking beautiful algorithm.
 const maxIncreaseKeepingSkyline = grid => {
-  let diff = 0;
-
-  const rows = [];
-  const cols = [];
-  debugger;
+  let difference = 0;
+  let horizontal = []; //corresponds to i
+  let vertical = []; // corresponds to j
   for (let i = 0; i < grid.length; i++) {
-    rows[i] = 0;
-
+    //going to be comparing, 0 is the smallest possible value, so set horizontal[i] = 0, then compare from there.
+    horizontal[i] = 0;
     for (let j = 0; j < grid[i].length; j++) {
-      if (i === 0) cols[j] = 0;
+      if (i === 0) vertical[j] = 0;
 
-      rows[i] = Math.max(rows[i], grid[i][j]);
-      //the j is really important; the algorithm is finding the vertical and horizontal maximum values.
-      cols[j] = Math.max(cols[j], grid[i][j]);
+      horizontal[i] = Math.max(horizontal[i], grid[i][j]);
+      vertical[j] = Math.max(vertical[j], grid[i][j]);
     }
   }
 
   for (let i = 0; i < grid.length; i++) {
     for (let j = 0; j < grid[i].length; j++) {
-      let max = Math.min(rows[i], cols[j]);
-      diff += max - grid[i][j];
+      let maximum = Math.min(horizontal[i], vertical[j]);
+      difference += maximum - grid[i][j];
     }
   }
-
-  return diff;
+  return difference;
 };
