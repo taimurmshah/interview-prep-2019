@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/abc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/identicalPairs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="49" selection-start-column="49" selection-end-column="49" />
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -271,12 +264,12 @@
       <workItem from="1562579460451" duration="190000" />
       <workItem from="1563218349587" duration="3053000" />
       <workItem from="1564609093010" duration="25763000" />
-      <workItem from="1565313528632" duration="33361000" />
+      <workItem from="1565313528632" duration="33431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143109000" />
+    <option name="totallyTimeSpent" value="143179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +284,7 @@
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,7 +296,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32997987" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16710876" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16710876" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -719,7 +712,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
