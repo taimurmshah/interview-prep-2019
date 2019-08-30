@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="160">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/Algorithms/better-code-challenge/index.html" />
         <option value="$PROJECT_DIR$/Algorithms/better-code-challenge/photo.js" />
         <option value="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" />
-        <option value="$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js" />
         <option value="$PROJECT_DIR$/Algorithms/interview-code-challenges/resources.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js" />
       </list>
     </option>
   </component>
@@ -264,12 +264,12 @@
       <workItem from="1562579460451" duration="190000" />
       <workItem from="1563218349587" duration="3053000" />
       <workItem from="1564609093010" duration="25763000" />
-      <workItem from="1565313528632" duration="33551000" />
+      <workItem from="1565313528632" duration="33742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143299000" />
+    <option name="totallyTimeSpent" value="143490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,20 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/interview-code-challenges/resources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/interview-code-challenges/identicalPairs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -713,6 +699,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/interview-code-challenges/resources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/interview-code-challenges/photo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>

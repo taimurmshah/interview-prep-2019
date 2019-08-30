@@ -1,10 +1,12 @@
 //found this problem online; I think it's good practice for OOP on interviews
 
+//sample photo format: "yer.jpg, NYC, 2019-02-13 14:18:30\n"
+
 /* Tasks:
  * 1. sort by city
  * 2. sort by date
  * 3. sort by time (after sorted by date)
- * 4. rename photos in format: "Warsaw02.jpg" or "London1.png"
+ * 4. rename photos in format: "NYC02.jpg" or "NYC1.png"
  *   - count total number of photos, then add the number to the name of the photo
  * */
 
@@ -55,7 +57,6 @@ class Photo {
   }
 
   addValues() {
-    // "photo.jpg, Warsaw, 2013-09-05 14:08:15\n"
     let values = this.fullString.split(", ");
     let fileType = values[0].split(".")[1];
     fileType = "." + fileType;
