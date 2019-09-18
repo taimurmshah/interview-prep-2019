@@ -1,45 +1,51 @@
-const findDuplicates = function(nums) {
-  debugger;
+//https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
-  let empty = nums.length + 1,
-    currentElement,
-    next;
+let test = [4, 3, 2, 7, 8, 2, 3, 1];
 
-  for (let i = 0; i < nums.length; ++i) {
-    currentElement = Math.abs(nums[i]);
+let returnDuplicates = array => {
+  let currentElement,
+    displaced,
+    replacement = array.length + 1;
+  for (let i = 0; i < array.length; i++) {
+    currentElement = Math.abs(array[i]);
 
-    if (currentElement === i + 1 || currentElement === empty) continue; //Step 1 -- this check is of whether the currentElement is in it's right place OR (if it's not in it's right place, if it's been replaced by one greater)
+    //check if this number is in the right spot. if so, increment the loop.
 
-    //number is not in it's right place; replace it with 9
-    nums[i] = empty; //Step 2
+    if (currentElement === i + 1 || currentElement === replacement) continue;
 
-    //value = currentElement, so if the currentElement is not at it's correct place, then we want to set the value of
-    //next to the number @ currentElement's correct position
-    next = Math.abs(nums[currentElement - 1]);
+    //put replacement value in:
+    array[i] = replacement;
 
-    //Step 3 -
-    while (currentElement !== empty && currentElement !== next) {
-      //putting the number at it's correct place
-      nums[currentElement - 1] = currentElement;
+    //save the "displaced" value:
+    displaced = array[currentElement - 1];
 
-      //next saves the value that we just replaced.
-      //we set currentElement to the value of next
-      currentElement = Math.abs(next);
+    //now the array looks like: [9, 3, 2, 7, 8, 2, 3, 1],
+    //with currentElement = 4, displaced = 7.
+    //now I have to start the process of putting shit in the right place.
+    // 4 goes to i = 3; 7 goes to i = 6; 3 goes to i = 2, etc.
+    //to break out of the loop, currentElement either needs to equal displaced or traveller.
+    while (currentElement !== displaced && currentElement !== replacement) {
+      //put the number in it's right place
+      array[currentElement - 1] = currentElement;
+      //now the array looks like: [9, 3, 2, 4, 8, 2, 3, 1], with displaced === 7.
 
-      //when is current value NOT less than empty?
-      next =
-        currentElement < empty ? Math.abs(nums[currentElement - 1]) : empty;
+      //update the value of current element
+      currentElement = Math.abs(displaced);
+
+      //get the new value of displaced; what is at currentElement's correct spot?
+      displaced =
+        currentElement < replacement ? array[currentElement - 1] : replacement;
     }
 
-    //this is confusing... gonna run through this now in debugger
-    if (currentElement < empty) nums[currentElement - 1] = -currentElement; //Step 4
+    //check if the value at where currentElement should go === currentElement.
+    if (displaced === currentElement && currentElement < replacement)
+      array[currentElement - 1] = -currentElement;
   }
 
-  //Filter out negative nums and make them positive for answer.
-  return nums.filter(e => e < 0).map(e => -e);
+  return array.filter(n => n < 0).map(n => -n);
 };
 
-console.log(findDuplicates([4, 3, 2, 7, 8, 2, 3, 1]));
+// console.log(returnDuplicates(test));
 
 const findDuplicates2 = function(nums) {
   const dups = [];
