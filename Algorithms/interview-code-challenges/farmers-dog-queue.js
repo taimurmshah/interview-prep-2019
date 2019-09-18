@@ -71,6 +71,47 @@ let queue = new Queue({ concurrency: 10 });
 
 // queue.onFinish.then(() => console.log('All done!'));
 
-queue.add(...jobs(100));
-queue.add(...jobs(10));
-queue.start();
+// queue.add(...jobs(100));
+// queue.add(...jobs(10));
+// queue.start();
+
+/*---------------array stuff----------------*/
+
+let array1 = [1, 3, 5, 6, 9, 2, 5, 10, 8, 9];
+
+// let removeDups = array => {
+// //   let count = {};
+// //
+// //   for (let i = 0; i < array.length; i++) {
+// //     if (!count[array[i]]) {
+// //       count[array[i]] = array[i];
+// //     }
+// //   }
+// //   return Object.values(count);
+// // };
+
+// Array.prototype.removeDups = function() {
+//   let count = {};
+//
+//   for (let i = 0; i < this.length; i++) {
+//     if (!count[this[i]]) {
+//       count[this[i]] = this[i];
+//     }
+//   }
+//   return Object.values(count);
+// };
+
+// Object.defineProperty(Array.prototype, "removeDups", {
+//   get() {
+//     let count = {};
+//
+//     for (let i = 0; i < this.length; i++) {
+//       if (!count[this[i]]) {
+//         count[this[i]] = this[i];
+//       }
+//     }
+//     return Object.values(count);
+//   }
+// });
+
+// console.log(array1.removeDups);
