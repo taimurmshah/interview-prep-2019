@@ -8,8 +8,7 @@ let solution = input => {
   let num = parseInt(array[array.length - 1]);
 
   let fibonacci = n => {
-    if (n === 1) return 1;
-    if (n === 2) return 2;
+    if (n === 1 || n === 2) return n;
     if (n < 1) return;
     return fibonacci(n - 1) + fibonacci(n - 2);
   };
