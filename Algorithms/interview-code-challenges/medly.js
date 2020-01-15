@@ -16,7 +16,7 @@ let solution = input => {
   return fibonacci(num);
 };
 
-console.log(solution("1 2 6"));
+// console.log(solution("1 2 6"));
 
 let reverseSolution = s => {
   return s
@@ -33,4 +33,4 @@ let reverseSolution = s => {
 
 let string = "3\nHello World\nBye World\nUseless World";
 
-console.log(reverseSolution(string));
+// console.log(reverseSolution(string));

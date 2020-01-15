@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/leet-code-medium/intToRoman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/leet-code-medium/phone-number-letter-combos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/medly.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/medly.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/leet-code-medium/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/leet-code-medium/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/redo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/redo.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,9 +47,15 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -78,15 +82,15 @@
       <recent name="$PROJECT_DIR$/Algorithms/leet-code-medium" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -119,7 +123,12 @@
       <workItem from="1569809591747" duration="14000" />
       <workItem from="1570995148389" duration="1125000" />
       <workItem from="1571028395920" duration="1959000" />
-      <workItem from="1571173266456" duration="3578000" />
+      <workItem from="1571173266456" duration="3600000" />
+      <workItem from="1572276006901" duration="717000" />
+      <workItem from="1575682191749" duration="126000" />
+      <workItem from="1575733746389" duration="6140000" />
+      <workItem from="1575946434062" duration="14000" />
+      <workItem from="1576796058091" duration="700000" />
     </task>
     <servers />
   </component>
@@ -147,6 +156,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1575745510210">
+      <screen x="-256" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1575745510210" />
+    <state x="385" y="183" width="670" height="676" key="search.everywhere.popup" timestamp="1575682291273">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="385" y="183" width="670" height="676" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1575682291273" />
   </component>
   <component name="masterDetails">
     <states>
