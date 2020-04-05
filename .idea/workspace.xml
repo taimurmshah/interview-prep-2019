@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/leet-code-medium/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoe/src/Box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoe/src/Tictactoe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/monotonic-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/move-element-to-end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/smallest-difference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/spiral.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/three-number-sum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/leet-code-medium/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/leet-code-medium/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/redo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/redo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +124,11 @@
       <workItem from="1580185141602" duration="6158000" />
       <workItem from="1581458280166" duration="1281000" />
       <workItem from="1581472326653" duration="4502000" />
-      <workItem from="1581553976669" duration="222000" />
+      <workItem from="1581553976669" duration="247000" />
+      <workItem from="1582503848068" duration="178000" />
+      <workItem from="1582724382544" duration="2785000" />
+      <workItem from="1583713398778" duration="45000" />
+      <workItem from="1585640708983" duration="10260000" />
     </task>
     <servers />
   </component>
@@ -153,19 +158,23 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="376" y="-740" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585769759360">
+      <screen x="-256" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="376" y="-740" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-256.-1080.1920.1080@-256.-1080.1920.1080" timestamp="1585769759360" />
     <state x="280" y="-1014" key="CommitChangelistDialog2" timestamp="1581472261001">
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
     <state x="280" y="-1014" key="CommitChangelistDialog2/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1581472261001" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1575745510210">
+    <state x="348" y="-788" width="712" height="518" key="find.popup" timestamp="1585646349947">
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1575745510210" />
+    <state x="348" y="-788" width="712" height="518" key="find.popup/0.23.1440.835/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1585646349947" />
+    <state x="348" y="-788" width="712" height="518" key="find.popup/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1583713438733" />
     <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup" timestamp="1581475014035">
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
     <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1581475014035" />
-    <state x="385" y="183" width="670" height="676" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1575682291273" />
   </component>
   <component name="masterDetails">
     <states>
