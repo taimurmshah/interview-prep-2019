@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/monotonic-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/move-element-to-end.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/smallest-difference.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/spiral.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/three-number-sum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/longest-peak.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/redo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/redo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/spiral.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/spiral.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,9 @@
       <workItem from="1582503848068" duration="178000" />
       <workItem from="1582724382544" duration="2785000" />
       <workItem from="1583713398778" duration="45000" />
-      <workItem from="1585640708983" duration="10260000" />
+      <workItem from="1585640708983" duration="10279000" />
+      <workItem from="1587130295084" duration="3107000" />
+      <workItem from="1587325124165" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -171,9 +169,10 @@
     </state>
     <state x="348" y="-788" width="712" height="518" key="find.popup/0.23.1440.835/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1585646349947" />
     <state x="348" y="-788" width="712" height="518" key="find.popup/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1583713438733" />
-    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup" timestamp="1581475014035">
+    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup" timestamp="1587325160827">
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1587325160827" />
     <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1581475014035" />
   </component>
   <component name="masterDetails">
