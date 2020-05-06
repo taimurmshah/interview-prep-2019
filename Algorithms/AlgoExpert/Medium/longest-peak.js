@@ -1,6 +1,6 @@
 /* https://www.algoexpert.io/questions/Longest%20Peak */
 
-console.log("yer  up");
+// console.log("yer  up");
 
 const longestPeak = array => {
   debugger;
@@ -58,6 +58,6 @@ const longestPeak = array => {
   return length;
 };
 
-console.log("yer");
-
-console.log(longestPeak([5, 4, 3, 2, 1, 2, 10, 12]));
+// console.log("yer");
+//
+// console.log(longestPeak([5, 4, 3, 2, 1, 2, 10, 12]));
