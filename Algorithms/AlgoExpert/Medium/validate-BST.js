@@ -50,4 +50,4 @@ root.left.right.right = new BST(11);
 root.right = new BST(15);
 root.right.right = new BST(22);
 
-console.log({ root });
+// console.log({ root });

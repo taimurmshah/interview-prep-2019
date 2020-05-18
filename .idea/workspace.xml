@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/validate-BST.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/max-nonadjacent-sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/max-nonadjacent-sum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/min-height-BST.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/min-height-BST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/validate-BST.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/validate-BST.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +129,8 @@
       <workItem from="1587130295084" duration="3107000" />
       <workItem from="1587325124165" duration="3138000" />
       <workItem from="1588469654882" duration="351000" />
-      <workItem from="1588706188871" duration="11463000" />
+      <workItem from="1588706188871" duration="11493000" />
+      <workItem from="1589324330002" duration="11588000" />
     </task>
     <servers />
   </component>
@@ -161,9 +164,10 @@
       <screen x="-256" y="-1080" width="1920" height="1080" />
     </state>
     <state x="376" y="-740" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-256.-1080.1920.1080@-256.-1080.1920.1080" timestamp="1585769759360" />
-    <state x="280" y="-1014" key="CommitChangelistDialog2" timestamp="1581472261001">
+    <state x="280" y="-1014" key="CommitChangelistDialog2" timestamp="1589341415712">
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="280" y="-1014" key="CommitChangelistDialog2/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1589341415712" />
     <state x="280" y="-1014" key="CommitChangelistDialog2/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1581472261001" />
     <state x="348" y="-788" width="712" height="518" key="find.popup" timestamp="1585646349947">
       <screen x="-256" y="-1057" width="1920" height="1057" />
