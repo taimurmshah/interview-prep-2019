@@ -87,7 +87,7 @@ const maxFreq = function(s, maxLetters, minSize, maxSize) {
   }
   return res;
 };
-
-console.log(maxFreq("aababcaab", 2, 3, 4));
-console.log(maxFreq("abcde", 2, 3, 3));
-console.log(maxFreq("bccaabac", 2, 2, 2));
+//
+// console.log(maxFreq("aababcaab", 2, 3, 4));
+// console.log(maxFreq("abcde", 2, 3, 3));
+// console.log(maxFreq("bccaabac", 2, 2, 2));
