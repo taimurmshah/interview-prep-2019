@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/kadane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/levenshtein-distance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/min-number-for-change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/number-of-ways-to-make-change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/single-cycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/tempus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/max-nonadjacent-sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/max-nonadjacent-sum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/min-height-BST.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/min-height-BST.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/validate-BST.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/validate-BST.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/rivers.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -131,6 +138,11 @@
       <workItem from="1588469654882" duration="351000" />
       <workItem from="1588706188871" duration="11493000" />
       <workItem from="1589324330002" duration="11588000" />
+      <workItem from="1589819533841" duration="353000" />
+      <workItem from="1590068792975" duration="21549000" />
+      <workItem from="1590553193103" duration="4614000" />
+      <workItem from="1594928379138" duration="195000" />
+      <workItem from="1596729081532" duration="2298000" />
     </task>
     <servers />
   </component>
@@ -168,18 +180,20 @@
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
     <state x="280" y="-1014" key="CommitChangelistDialog2/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1589341415712" />
-    <state x="280" y="-1014" key="CommitChangelistDialog2/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1581472261001" />
+    <state x="205" y="-911" key="SettingsEditor" timestamp="1590262961058">
+      <screen x="-256" y="-1057" width="1920" height="1014" />
+    </state>
+    <state x="205" y="-911" key="SettingsEditor/0.23.1440.877/-256.-1057.1920.1014@-256.-1057.1920.1014" timestamp="1590262961058" />
     <state x="348" y="-788" width="712" height="518" key="find.popup" timestamp="1585646349947">
       <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
     <state x="348" y="-788" width="712" height="518" key="find.popup/0.23.1440.835/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1585646349947" />
     <state x="348" y="-788" width="712" height="518" key="find.popup/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1583713438733" />
-    <state x="385" y="182" width="671" height="675" key="search.everywhere.popup" timestamp="1588801579127">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup" timestamp="1590286149250">
+      <screen x="-256" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1588707145789" />
+    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1590286149250" />
     <state x="385" y="182" width="671" height="675" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1588801579127" />
-    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.836/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1581475014035" />
   </component>
   <component name="masterDetails">
     <states>
