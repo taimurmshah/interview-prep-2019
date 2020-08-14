@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/kadane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/levenshtein-distance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/min-number-for-change.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/number-of-ways-to-make-change.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/single-cycle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/tempus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/rivers.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/rivers.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/permutations.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -142,7 +133,9 @@
       <workItem from="1590068792975" duration="21549000" />
       <workItem from="1590553193103" duration="4614000" />
       <workItem from="1594928379138" duration="195000" />
-      <workItem from="1596729081532" duration="2298000" />
+      <workItem from="1596729081532" duration="2959000" />
+      <workItem from="1596921017177" duration="200000" />
+      <workItem from="1597358500893" duration="2123000" />
     </task>
     <servers />
   </component>
