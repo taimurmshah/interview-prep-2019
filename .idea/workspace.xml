@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/longest-palindrome.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/powerset.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/rivers.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/permutations.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Hard/four-sum.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/longest-palindrome.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/powerset.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/rivers.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/group-anagrams.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/permutations.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/subarray-sort.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -139,7 +138,9 @@
       <workItem from="1596921017177" duration="200000" />
       <workItem from="1597358500893" duration="2213000" />
       <workItem from="1597432414033" duration="3000" />
-      <workItem from="1597632078293" duration="10488000" />
+      <workItem from="1597632078293" duration="10787000" />
+      <workItem from="1598605185872" duration="3448000" />
+      <workItem from="1598702046295" duration="540000" />
     </task>
     <servers />
   </component>
@@ -169,10 +170,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="280" y="-1014" key="CommitChangelistDialog2" timestamp="1589341415712">
-      <screen x="-256" y="-1057" width="1920" height="1057" />
+    <state x="681" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598605231716">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="280" y="-1014" key="CommitChangelistDialog2/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1589341415712" />
+    <state x="681" y="351" key="#com.intellij.fileTypes.FileTypeChooser/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1598605231715" />
     <state x="205" y="-911" key="SettingsEditor" timestamp="1590262961058">
       <screen x="-256" y="-1057" width="1920" height="1014" />
     </state>
