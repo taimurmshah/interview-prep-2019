@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe/inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe/solution.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,15 +61,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2825112" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithms/leet-code-medium" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithms/interview-code-challenges/stripe" />
       <recent name="$PROJECT_DIR$/Algorithms/leet-code-medium" />
       <recent name="$PROJECT_DIR$/Algorithms/better-code-challenge" />
       <recent name="$PROJECT_DIR$/JS" />
       <recent name="$PROJECT_DIR$/Algorithms" />
-      <recent name="$PROJECT_DIR$/Algorithms/sorting-algorithms" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Algorithms/leet-code-medium" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -141,6 +144,7 @@
       <workItem from="1597632078293" duration="10787000" />
       <workItem from="1598605185872" duration="3448000" />
       <workItem from="1598702046295" duration="540000" />
+      <workItem from="1598888292552" duration="9244000" />
     </task>
     <servers />
   </component>
@@ -178,14 +182,16 @@
       <screen x="-256" y="-1057" width="1920" height="1014" />
     </state>
     <state x="205" y="-911" key="SettingsEditor/0.23.1440.877/-256.-1057.1920.1014@-256.-1057.1920.1014" timestamp="1590262961058" />
-    <state x="525" y="260" width="870" height="582" key="find.popup" timestamp="1597641515330">
+    <state x="394" y="220" width="712" height="518" key="find.popup" timestamp="1598900146793">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="394" y="220" width="712" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598900146793" />
+    <state x="525" y="260" width="870" height="582" key="find.popup/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1597641515330" />
+    <state x="513" y="225" width="894" height="855" key="search.everywhere.popup" timestamp="1598889675736">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="525" y="260" width="870" height="582" key="find.popup/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1597641515330" />
-    <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup" timestamp="1590286149250">
-      <screen x="-256" y="-1057" width="1920" height="1057" />
-    </state>
     <state x="257" y="-855" width="894" height="855" key="search.everywhere.popup/0.23.1440.834/-256.-1057.1920.1057@-256.-1057.1920.1057" timestamp="1590286149250" />
+    <state x="513" y="225" width="894" height="855" key="search.everywhere.popup/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1598889675736" />
   </component>
   <component name="masterDetails">
     <states>
