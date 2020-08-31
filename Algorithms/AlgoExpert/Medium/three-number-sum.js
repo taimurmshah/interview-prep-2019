@@ -1,26 +1,27 @@
 /*  https://www.algoexpert.io/questions/Three%20Number%20Sum  */
-const threeNumberSum = (array, target) => {
+const threeNumberSum = (array, targetSum) => {
   const res = [];
 
-  array = array.sort((a, b) => a - b);
+  array.sort((a, b) => a - b);
+  debugger;
+  for (let i = 0; i < array.length; i++) {
+    let c = array[i],
+      l = i + 1,
+      r = array.length - 1;
 
-  for (let i = 0; i < array.length - 2; i++) {
-    debugger;
-    let left = i + 1;
-    let right = array.length - 1;
-    while (left < right) {
-      let sum = array[i] + array[left] + array[right];
-      if (sum < target) left++;
-      else if (sum > target) right--;
+    while (r > l) {
+      let sum = c + array[l] + array[r];
+      if (sum > targetSum) r--;
+      else if (sum < targetSum) l++;
       else {
-        res.push([array[i], array[left], array[right]]);
-        left++;
-        right--;
+        res.push([c, array[l], array[r]]);
+        r--;
+        l++;
       }
     }
   }
-
   return res;
 };
 
 //all tests passing!
+console.log(threeNumberSum([12, 3, 1, 2, -6, 5, -8, 6], 0));
