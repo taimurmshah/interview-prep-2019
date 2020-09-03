@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/taimur.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/longest-peak.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/longest-peak.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/smallest-difference.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/smallest-difference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/spiral.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/spiral.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,18 +146,10 @@
       <workItem from="1598702046295" duration="540000" />
       <workItem from="1598888292552" duration="9500000" />
       <workItem from="1598905385573" duration="2181000" />
-      <workItem from="1598984139195" duration="745000" />
+      <workItem from="1598984139195" duration="1140000" />
+      <workItem from="1599069193890" duration="8593000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
