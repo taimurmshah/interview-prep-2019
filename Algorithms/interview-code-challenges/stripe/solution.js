@@ -128,7 +128,7 @@ const test1 = [
   "/payout?merchant_id=m001"
 ];
 
-let test2 = [
+const test2 = [
   "2",
   "visa 2.0",
   "mastercard 3.0",
