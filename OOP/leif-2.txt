@@ -1,0 +1,42 @@
+Here, there are 3-4 objects. They are:
+1. Student
+2. School
+3. Contract
+4. ContractAdjustment
+
+The prompt wants me to create a method on Contract that discounts the contract terms.
+
+Reduce Ambiguity:
+1. WHO is going to be using this?
+    - A student drops out. Does Leif go to a school and say, "yo, Mohamed just dropped out. Can we readjust?"
+        - OR does a school do the readjusting? as in, Mohamed just dropped out, let us adjust his contract
+          so that he doesn't owe us as much money; let's discount his shit.
+    Determination: School will be using this.
+2. HOW will this be used?
+    - Does a school admin log into their Leif account, look at the contracts, select one, and choose to discount it?
+        - If so, what does that look like? Do they have search functionality to find a student? (probably)
+        - Does Leif have rules as to how a discount can be structured? As in, how does a discount work?
+    - What are the specifics of the discount? What properties of a contract can be discounted?
+        - percentIncomeShare
+        - paymentCap
+        - contractLength (might be a better name for this)
+3. WHY?
+    - A student gets a contract with a school with particular terms; he doesn't complete the program, so the school
+      wants to discount his contract; they don't want him to pay the full amount.
+
+So, where do I start? The prompt asks me to write a method on Contract called discount.
+    1. I create the Contract class.
+        - What are the properties?
+            - paymentCap
+            - percentIncomeShare
+            - contractLength
+    2. I create a method called discountContract().
+        - at a high level, what is this method doing?
+            - this method is changing one or many of the contract particulars
+        - What are the inputs?
+        - What is the return value?
+    3. Does there need to be a record of changes made to a contract? If a student owed 15K, but now he owes 5K,
+       does that information need to be tracked? It seems like it should -- there should be a history of what has
+       happened.
+        - if so, how and where will this data be stored?
+            - imagine a new class, maybe ContractAdjustment
