@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8436f102-13c9-4f6a-bfb9-41ba34de472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/leif-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/leif-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/parking-lot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/bbot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/AlgoExpert/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/interview-code-challenges/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/etsy-code-challenge/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/etsy-code-challenge/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/etsy-code-challenge/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/tests/etsy-code-challenge/bin/www" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/etsy-code-challenge/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/etsy-code-challenge/package-lock.json" afterDir="false" />
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Hard/four-sum.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/longest-palindrome.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/min-num-jumps.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/powerset.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/max-sum-increasing-subsequence.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/rivers.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/group-anagrams.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/IBM.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/permutations.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/subarray-sort.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/same-bst.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Algorithms/AlgoExpert/Medium/longest-palindrome.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/min-num-jumps.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/waterArea.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/powerset.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/max-sum-increasing-subsequence.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/rivers.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/group-anagrams.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Medium/permutations.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/subarray-sort.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/same-bst.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/four-sum.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/knapsack-problem.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/citi.js&#10;/Users/taimur/interview-prep-2019/Algorithms/AlgoExpert/Hard/IBM.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,7 +64,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2825112" />
   </component>
   <component name="RecentsManager">
@@ -168,6 +166,9 @@
       <workItem from="1601291464793" duration="239000" />
       <workItem from="1601494641821" duration="706000" />
       <workItem from="1601495665115" duration="5540000" />
+      <workItem from="1601750677924" duration="14000" />
+      <workItem from="1601915305892" duration="268000" />
+      <workItem from="1602449599329" duration="4971000" />
     </task>
     <servers />
   </component>
@@ -192,18 +193,20 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="681" y="351" key="#com.intellij.fileTypes.FileTypeChooser/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1598605231715" />
-    <state x="461" y="190" key="SettingsEditor" timestamp="1598905503408">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="346" y="162" key="SettingsEditor" timestamp="1602449669705">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="346" y="162" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1602449669705" />
     <state x="461" y="190" key="SettingsEditor/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1598905503408" />
     <state x="394" y="220" width="712" height="518" key="find.popup" timestamp="1598900146793">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="394" y="220" width="712" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598900146793" />
     <state x="525" y="260" width="870" height="582" key="find.popup/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1597641515330" />
-    <state x="513" y="225" width="894" height="855" key="search.everywhere.popup" timestamp="1599421685655">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="385" y="191" width="671" height="710" key="search.everywhere.popup" timestamp="1602450754633">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="385" y="191" width="671" height="710" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1602450754633" />
     <state x="513" y="225" width="894" height="855" key="search.everywhere.popup/241.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1599421685655" />
   </component>
   <component name="masterDetails">
